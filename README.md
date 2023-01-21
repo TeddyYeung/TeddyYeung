@@ -1,4 +1,4 @@
-### Mobile Developer 
+### Mobile Application Developer
 
 <!-- - 🌱 I’m currently learning **Blockchains and Solidity for Dapps** -->
 
