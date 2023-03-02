@@ -11,7 +11,7 @@
 
 <!-- - ⌨️ Open Source Contributor. -->
 <br></br>
-- 🌱 I’m learning **Dart, Swift, and Design patterns. Mobile development to follow!**
+- 🌱 I’m learning **Dart, Swift, and Design patterns.**
 
 - ⚡ Fun fact - **I'm a little bit geek**
 
