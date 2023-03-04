@@ -2,7 +2,25 @@
 <h1 align="center">Hi 👋, I'm Teddy</h1>
 <h3 align="center"> :octocat: Mobile Application Developer <br> </h3>
 
+## About Me
 
+I am a mobile application developer with a passion for humanities. 
+
+I believe that technology can be used to create positive change in society, and I strive to create mobile applications that reflect this belief.
+
+- 🌱 I’m learning **Dart, Swift, and Design patterns.**
+
+- ⚡ Fun fact - **I like to read classical humanities**
+
+## Skills
+
+- iOS and Android mobile application development
+- Swift, Dart, Kotlin, and React programming languages
+- Agile software development methodology
+- User interface and user experience design
+- RESTful API integration
+- Cross-functional team collaboration
+- Technical writing and documentation
 
 <!-- - 🔭 I’m currently working on - 
   * [Dusty Shoes Travel List](https://github.com/cmwilson21/dusty-shoes-client) - a travel bucketlist tracker.
@@ -10,17 +28,11 @@
   * [Headlines Up](https://github.com/cmwilson21/headlines-up) - a game where you guess which headline was written by which news source. **Very early work in progress** -->
 
 <!-- - ⌨️ Open Source Contributor. -->
-<br></br>
-- 🌱 I’m learning **Dart, Swift, and Design patterns.**
 
-- ⚡ Fun fact - **I'm a little bit geek**
-
-### Skills that I have acquired from work experience 🛠
+<!-- ### Skills that I have acquired from work experience 🛠 -->
+<!-- ### Skills that I have done  -->
 ![Dart](https://img.shields.io/badge/Dart-0175C2.svg?&style=for-the-badge&logo=Dart&logoColor=white)
 ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF.svg?&style=for-the-badge&logo=Kotlin&logoColor=white)
-
-### Skills that I have done 
-
 ![R](https://img.shields.io/badge/R-276DC3.svg?&style=for-the-badge&logo=R&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB.svg?&style=for-the-badge&logo=Python&logoColor=white)
 ![Swift](https://img.shields.io/badge/Swift-F05138.svg?&style=for-the-badge&logo=Swift&logoColor=white)
