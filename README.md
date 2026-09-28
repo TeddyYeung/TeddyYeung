@@ -1,26 +1,5 @@
 # Hi, I'm Teddy 👋
 
-**Mobile Software Engineer · Flutter & iOS platform internals**
-
-I ship production Flutter apps and fix the native layer underneath them — build systems, plugin registration, and platform channels.
-My upstream work focuses on migrating the Flutter plugin ecosystem to **Swift Package Manager** ahead of the CocoaPods trunk read-only cutoff (Dec 2026).
-
-> *"My goal is to simplify complexity."* — Jack Dorsey
-
----
-
-## 📈 Open Source Impact
-
-| | |
-|---|---|
-| **Merged upstream PRs** | 3 plugins, all shipped in official pub.dev releases |
-| **Reach of merged code** | **~357K downloads / month** across affected packages |
-| **Community signal** | 700+ pub.dev likes on packages I contributed to |
-
-<sub>Download figures from pub.dev, 30-day window, as of Sep 2026.</sub>
-
----
-
 ## ✅ Merged Contributions
 
 ### [`flutter_foreground_task`](https://github.com/Dev-hwang/flutter_foreground_task) — [PR #387](https://github.com/Dev-hwang/flutter_foreground_task/pull/387) · shipped in **v11.0.0**
