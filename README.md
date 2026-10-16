@@ -30,3 +30,9 @@
 - Maintained fork of the unmaintained [`flutter_mute`](https://pub.dev/packages/flutter_mute): check or toggle the device ringer mode (normal, silent, vibrate) and listen for changes.
 - Brought it up to date with **AGP 8/9**, **Xcode 16+** and **Swift Package Manager** support, and shipped pending community fixes the original repository could not accept.
 - Submitted to [Flutter Gems](https://fluttergems.dev/) ([PR #1013](https://github.com/fluttergems/fluttergems/pull/1013)).
+
+### [`flutter_jailbreak_guard`](https://pub.dev/packages/flutter_jailbreak_guard) — [GitHub](https://github.com/TeddyYeung/flutter_jailbreak_guard) · **v0.2.1**
+`Verified publisher` · `Android + iOS` · `SPM + CocoaPods`
+- Jailbreak (iOS) and root (Android) detection built as a modern replacement for [`flutter_jailbreak_detection_plus`](https://pub.dev/packages/flutter_jailbreak_detection_plus), whose SPM support ([PR #9](https://github.com/yazanalkamsheh/flutter_jailbreak_detection_plus/pull/9)) is still unreleased.
+- Uses the same engines (**IOSSecuritySuite**, **RootBeer**) and fallback values, so detection results match; **fail-closed** when a result is missing.
+- Android checks run on a background task queue (no main-thread blocking); covered by Dart unit, Kotlin unit and integration tests.
