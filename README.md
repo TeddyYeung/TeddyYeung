@@ -33,6 +33,7 @@
 
 ### [`flutter_jailbreak_guard`](https://pub.dev/packages/flutter_jailbreak_guard) — [GitHub](https://github.com/TeddyYeung/flutter_jailbreak_guard) · **v0.2.1**
 `Verified publisher` · `Android + iOS` · `SPM + CocoaPods`
-- Jailbreak (iOS) and root (Android) detection built as a modern replacement for [`flutter_jailbreak_detection_plus`](https://pub.dev/packages/flutter_jailbreak_detection_plus), whose SPM support ([PR #9](https://github.com/yazanalkamsheh/flutter_jailbreak_detection_plus/pull/9)) is still unreleased.
-- Uses the same engines (**IOSSecuritySuite**, **RootBeer**) and fallback values, so detection results match; **fail-closed** when a result is missing.
-- Android checks run on a background task queue (no main-thread blocking); covered by Dart unit, Kotlin unit and integration tests.
+- Jailbreak (iOS) and root (Android) detection with **Swift Package Manager** support, built as a drop-in replacement for the CocoaPods-only [`flutter_jailbreak_detection_plus`](https://pub.dev/packages/flutter_jailbreak_detection_plus).
+- Keeps the same engines (**IOSSecuritySuite**, **RootBeer**) and fallback values, so migrating only changes the import and method names (`isJailbroken`, `isDeveloperMode`); **fail-closed** when the native result is missing.
+- Modernized the build: Swift-only iOS code, **AGP 9**, **Kotlin 2.3**, compileSdk 36 and Kotlin DSL; Android root checks run on a background task queue instead of the platform thread.
+- Lets apps pin the **BSD-2** licensed IOSSecuritySuite 1.9.x instead of the 2.x EULA; ships with Dart, Kotlin and integration tests.
