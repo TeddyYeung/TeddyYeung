@@ -1,39 +1,27 @@
-# Hi, I'm Teddy 👋
+# Teddy Yeung
 
-## ✅ Merged Contributions
+Mobile engineer (5 years) building and operating production iOS & Android apps with Flutter.
 
-### [`flutter/packages`](https://github.com/flutter/packages) (`image_picker_ios`) — [PR #12267](https://github.com/flutter/packages/pull/12267) · shipped in **0.8.13+10**
-`Official Flutter team repository` · `image_picker ~5M downloads/mo` · `7.7K+ likes`
-- Fixed a long-standing iOS bug ([flutter/flutter#132154](https://github.com/flutter/flutter/issues/132154), open since 2023) where selecting an image that `UIImage` cannot decode (e.g. AVIF) via PHPicker left the picker hanging or was treated as a successful save.
-- The operation now completes with the existing `invalid_image` error; added a regression test verifying that no path is returned and the `NSOperation` finishes.
-- Carried it through the full flutter/packages process: Google CLA, several upstream merge-conflict resolutions, and porting the test to the new Swift Testing suite after the Objective-C tests were migrated.
+**Focus areas**
+- **Architecture**: modular, testable codebases that scale with the product and the team
+- **Delivery**: CI/CD and build automation that keep releases fast and predictable
+- **AI-assisted engineering**: integrating coding agents into review, testing, and release workflows
+- **Platform**: native-layer work in Swift and Kotlin, contributed upstream to Flutter packages
 
-### [`flutter_foreground_task`](https://github.com/Dev-hwang/flutter_foreground_task) — [PR #387](https://github.com/Dev-hwang/flutter_foreground_task/pull/387) · shipped in **v11.0.0**
-`~219K downloads/mo` · `580+ likes` · `+1,276 LOC / 24 files`
-- Added iOS **Swift Package Manager** support to one of the most-used background-execution plugins in Flutter.
-- Solved SPM's no-mixed-language-target constraint by isolating a pure-Swift SPM target while keeping the ObjC + Swift CocoaPods path fully intact — **zero breaking changes** for existing users.
-- Made implicit umbrella-header imports explicit (`Flutter`, `UserNotifications`) so the module compiles standalone under SPM.
+[Website](https://teddyyeung.is-a.dev) · [LinkedIn](https://www.linkedin.com/in/teddyyeung/) · [Medium](https://medium.com/@TeddyYeung)
 
-### [`image_gallery_saver_plus`](https://github.com/ArmanKT/image_gallery_saver_plus) — [PR #3](https://github.com/ArmanKT/image_gallery_saver_plus/pull/3)
-`~136K downloads/mo` · `120+ likes`
-- Diagnosed and fixed a broken `Package.swift` that declared a non-existent `FlutterFramework` dependency, which made **SPM resolution fail for every consumer**.
-- Aligned the iOS deployment target with the podspec and brought the manifest in line with Flutter's official plugin SPM template.
+## Open Source Contributions
 
-### [`is_lock_screen2`](https://github.com/Wing-Li/flutter_is_lock_screen2) — [PR #10](https://github.com/Wing-Li/flutter_is_lock_screen2/pull/10) · shipped in **v2.1.0**
-`+409 / −148 LOC · 23 files`
-- Added iOS SPM support with dual-path compatibility; verified builds with SPM enabled and with CocoaPods retained.
+| Project | Contribution | Reach |
+|---|---|---|
+| [flutter/packages](https://github.com/flutter/packages) `image_picker_ios` · [#12267](https://github.com/flutter/packages/pull/12267) | Fixed a long-standing iOS bug ([flutter#132154](https://github.com/flutter/flutter/issues/132154), open since 2023) where undecodable images such as AVIF left the picker hanging; added a regression test. Shipped in 0.8.13+10. | ~5M downloads/mo |
+| [flutter_foreground_task](https://github.com/Dev-hwang/flutter_foreground_task) · [#387](https://github.com/Dev-hwang/flutter_foreground_task/pull/387) | Added iOS Swift Package Manager support by isolating a pure-Swift target, with zero breaking changes for CocoaPods users. Shipped in v11.0.0. | ~219K downloads/mo |
+| [image_gallery_saver_plus](https://github.com/ArmanKT/image_gallery_saver_plus) · [#3](https://github.com/ArmanKT/image_gallery_saver_plus/pull/3) | Fixed a broken `Package.swift` that made SPM resolution fail for every consumer. | ~136K downloads/mo |
+| [is_lock_screen2](https://github.com/Wing-Li/flutter_is_lock_screen2) · [#10](https://github.com/Wing-Li/flutter_is_lock_screen2/pull/10) | Added iOS SPM support alongside CocoaPods. Shipped in v2.1.0. | |
 
-## 📦 Maintained Packages
+Detailed write-ups: [open-source-contributions](https://github.com/TeddyYeung/open-source-contributions)
 
-### [`flutter_mute_plus`](https://pub.dev/packages/flutter_mute_plus) — [GitHub](https://github.com/TeddyYeung/flutter_mute_plus) · **v1.1.0**
-`160/160 pub points` · `Android + iOS`
-- Maintained fork of the unmaintained [`flutter_mute`](https://pub.dev/packages/flutter_mute): check or toggle the device ringer mode (normal, silent, vibrate) and listen for changes.
-- Brought it up to date with **AGP 8/9**, **Xcode 16+** and **Swift Package Manager** support, and shipped pending community fixes the original repository could not accept.
-- Submitted to [Flutter Gems](https://fluttergems.dev/) ([PR #1013](https://github.com/fluttergems/fluttergems/pull/1013)).
+## Packages
 
-### [`flutter_jailbreak_guard`](https://pub.dev/packages/flutter_jailbreak_guard) — [GitHub](https://github.com/TeddyYeung/flutter_jailbreak_guard) · **v0.2.1**
-`Verified publisher` · `Android + iOS` · `SPM + CocoaPods`
-- Jailbreak (iOS) and root (Android) detection with **Swift Package Manager** support, built as a drop-in replacement for the CocoaPods-only [`flutter_jailbreak_detection_plus`](https://pub.dev/packages/flutter_jailbreak_detection_plus).
-- Keeps the same engines (**IOSSecuritySuite**, **RootBeer**) and fallback values, so migrating only changes the import and method names (`isJailbroken`, `isDeveloperMode`); **fail-closed** when the native result is missing.
-- Modernized the build: Swift-only iOS code, **AGP 9**, **Kotlin 2.3**, compileSdk 36 and Kotlin DSL; Android root checks run on a background task queue instead of the platform thread.
-- Lets apps pin the **BSD-2** licensed IOSSecuritySuite 1.9.x instead of the 2.x EULA; ships with Dart, Kotlin and integration tests.
+- **[flutter_jailbreak_guard](https://pub.dev/packages/flutter_jailbreak_guard)** ([GitHub](https://github.com/TeddyYeung/flutter_jailbreak_guard)): jailbreak and root detection with SPM and CocoaPods support. A drop-in replacement for the CocoaPods-only [flutter_jailbreak_detection_plus](https://pub.dev/packages/flutter_jailbreak_detection_plus), with an option to pin the BSD-2 licensed IOSSecuritySuite 1.9.x.
+- **[flutter_mute_plus](https://pub.dev/packages/flutter_mute_plus)** ([GitHub](https://github.com/TeddyYeung/flutter_mute_plus)): maintained fork of the unmaintained [flutter_mute](https://pub.dev/packages/flutter_mute), updated for AGP 8/9, Xcode 16+ and SPM. 160/160 pub points.
