@@ -23,5 +23,5 @@ Detailed write-ups: [open-source-contributions](https://github.com/TeddyYeung/op
 
 ## Packages
 
-- **[flutter_jailbreak_guard](https://pub.dev/packages/flutter_jailbreak_guard)** ([GitHub](https://github.com/TeddyYeung/flutter_jailbreak_guard)): jailbreak and root detection with SPM and CocoaPods support. A drop-in replacement for the CocoaPods-only [flutter_jailbreak_detection_plus](https://pub.dev/packages/flutter_jailbreak_detection_plus), with an option to pin the BSD-2 licensed IOSSecuritySuite 1.9.x.
-- **[flutter_mute_plus](https://pub.dev/packages/flutter_mute_plus)** ([GitHub](https://github.com/TeddyYeung/flutter_mute_plus)): maintained fork of the unmaintained [flutter_mute](https://pub.dev/packages/flutter_mute), updated for AGP 8/9, Xcode 16+ and SPM. 160/160 pub points.
+- **[flutter_jailbreak_guard](https://pub.dev/packages/flutter_jailbreak_guard)** ([GitHub](https://github.com/TeddyYeung/flutter_jailbreak_guard)): jailbreak and root detection with SPM and CocoaPods support. A drop-in replacement for the CocoaPods-only [`flutter_jailbreak_detection_plus`](https://pub.dev/packages/flutter_jailbreak_detection_plus), with an option to pin the BSD-2 licensed `IOSSecuritySuite` 1.9.x.
+- **[flutter_mute_plus](https://pub.dev/packages/flutter_mute_plus)** ([GitHub](https://github.com/TeddyYeung/flutter_mute_plus)): maintained fork of the unmaintained [`flutter_mute`](https://pub.dev/packages/flutter_mute), updated for AGP 8/9, Xcode 16+ and SPM. 160/160 pub points.
