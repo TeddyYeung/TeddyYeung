@@ -14,6 +14,7 @@ Mobile engineer (5 years) building and operating production iOS & Android apps w
 
 | Project | Contribution | Reach |
 |---|---|---|
+| [flutter/flutter](https://github.com/flutter/flutter) web engine · [#195958](https://github.com/flutter/flutter/pull/195958) | Fixed still AVIF images failing to decode on Chrome ([flutter#160600](https://github.com/flutter/flutter/issues/160600)) in both the CanvasKit and Skwasm renderers; added four decoder tests for still and animated AVIF. | Flutter SDK (web) |
 | [flutter/packages](https://github.com/flutter/packages) `image_picker_ios` · [#12267](https://github.com/flutter/packages/pull/12267) | Fixed a long-standing iOS bug ([flutter#132154](https://github.com/flutter/flutter/issues/132154), open since 2023) where undecodable images such as AVIF left the picker hanging; added a regression test. Shipped in 0.8.13+10. | ~5.9M downloads/mo |
 | [flutter_foreground_task](https://github.com/Dev-hwang/flutter_foreground_task) · [#387](https://github.com/Dev-hwang/flutter_foreground_task/pull/387) | Added iOS Swift Package Manager support by isolating a pure-Swift target, with zero breaking changes for CocoaPods users. Shipped in v11.0.0. | ~270K downloads/mo |
 | [image_gallery_saver_plus](https://github.com/ArmanKT/image_gallery_saver_plus) · [#3](https://github.com/ArmanKT/image_gallery_saver_plus/pull/3) | Fixed a broken `Package.swift` that made SPM resolution fail for every consumer. | ~151K downloads/mo |
@@ -23,7 +24,6 @@ Mobile engineer (5 years) building and operating production iOS & Android apps w
 Detailed write-ups: [open-source-contributions](https://github.com/TeddyYeung/open-source-contributions)
 
 **In review**
-- [flutter/flutter #195958](https://github.com/flutter/flutter/pull/195958): [web] fix decoding of still AVIF images on Chrome (approved)
 - [flutter/flutter #196029](https://github.com/flutter/flutter/pull/196029): [web] decode images once in `instantiateImageCodecWithSize` instead of twice
 - [appsflyer_sdk #456](https://github.com/AppsFlyerSDK/appsflyer-flutter-plugin/pull/456): fix iOS callback ownership when the plugin is registered on more than one FlutterEngine
 - [datetime_setting #10](https://github.com/fuadarradhi/datetime_setting/pull/10): iOS Swift Package Manager support
